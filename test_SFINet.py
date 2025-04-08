@@ -7,6 +7,7 @@ import pdb, os, argparse
 import time
 import imageio
 from model.SFINet_V3 import SFINet
+# from model.SFINet_V2 import SFINet
 from utils.data import test_dataset
 
 parser = argparse.ArgumentParser()
