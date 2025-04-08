@@ -7,7 +7,8 @@ We provide saliency maps of our SFINet on ORSSD, EORSSD and ORSI-4199 datasets.
 [SFINet-MobileNetV3](https://pan.baidu.com/s/1ARYS0Uun53FIRFbmrFHR0Q) (code:SFIN)  
 
 # Training
-Run train_SFINet.py.
+Run train_SFINet.py.  
+For SFINet-MobileNetV3, please modify paths of [MobileNetV3_backbone](https://pan.baidu.com/s/1aPX9yAaHtlbrSL5fP0HEfA) (code: SFIN) in ./model/SFINet_V3.py.  
 # Pre-trained model and testing
 Download the following pre-trained model and put them in ./models/SFINet/, then run test_SFINet.py.  
 [SFINet_V2_EORSSD](https://pan.baidu.com/s/1e0hjuF1ENcxHXay5Rkaf-A) (code:SFIN)  
