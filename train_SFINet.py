@@ -6,6 +6,7 @@ import numpy as np
 import pdb, os, argparse
 from datetime import datetime
 from model.SFINet_V3 import SFINet
+# from model.SFINet_V2 import SFINet
 from utils.data import get_loader
 from utils.func import AvgMeter, clip_gradient, adjust_lr
 import pytorch_iou
