@@ -17,7 +17,7 @@ opt = args
 dataset_path = 'E:/Datasets/'
 
 model = SFINet()
-model.load_state_dict(torch.load('./models/SFINet_V3_ORSI-4199.pth', map_location=torch.device('cuda:0')))
+model.load_state_dict(torch.load('./models/SFINet/SFINet_V3_ORSI-4199.pth', map_location=torch.device('cuda:0')))
 
 model.cuda()
 model.eval()
